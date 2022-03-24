@@ -33,6 +33,7 @@ class Form extends Component {
             else {
                 localStorage.setItem("userFormData", JSON.stringify([newdata]))
             }
+            alert("Thank you for completing the information")
             window.location.href = "/"
         }
         else {
