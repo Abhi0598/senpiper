@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 2px #00000029;
+opacity: 1;
+    height: 4rem;
+    
+}
+.form{
+    font: normal normal normal 14px/17px Roboto;
+letter-spacing: 0px;
+color: #404B69;
+opacity: 1;
+    padding: 4px;
+    /* border-bottom: 2px solid blue; */
+    margin-top: 18px;
+    width: 5rem;
+    margin-left: 1em;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.table{
+    font: normal normal normal 14px/17px Roboto;
+    letter-spacing: 0px;
+    color: #404B69;
+    opacity: 1;
+    padding: 4px;
+    margin-top: 18px;
+    width: 5rem;
+    margin-left: 1em;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .header{
+      width: 200%;
+   }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .header{
+        width: 200%;
+    }
+}
