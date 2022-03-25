@@ -104,7 +104,10 @@ border-radius: 5px;
 opacity: 1;
 }
 #Phone{
-    width: 35em;
+      padding-left: 33px;
+    margin-left: 0px;
+    padding-right: 8px;
+    width: 32em;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.75px solid #B5B5B5;
     border-radius: 4px;
@@ -215,6 +218,13 @@ letter-spacing: 0px;
 color: #404B69;
 opacity: 1;
 
+}
+.flag{
+    width: 32px;
+height: 21px;
+position: absolute;
+    top: 281px;
+    left: 37px;
 }
 .submit{
     float: right;
